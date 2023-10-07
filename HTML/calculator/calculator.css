@@ -1,0 +1,58 @@
+body {
+	font-family: Arial, sans-serif;
+	background-image: url("https://media.istockphoto.com/id/1265965042/vector/math-theory-mathematics-calculus-on-class-chalkboard-algebra-and-geometry-science.jpg?s=612x612&w=0&k=20&c=T97ylW_6ht1STS_MRw4YrDg0Kt3HuoXEOQI9vQFfin8=");
+	background-color: #f0f0f0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+}
+
+.calculator {
+	background: rgba(255, 255, 255, 0.44);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(3.0px);
+	-webkit-backdrop-filter: blur(3.9px);
+	border: 1px solid rgba(255, 255, 255, 0.19);
+	width: 300px;
+	padding: 20px;
+}
+
+.display {
+	text-align: right;
+	margin-bottom: 10px;
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	gap: 10px;
+}
+
+input[type="text"] {
+	width: 140%;
+	padding: 10px;
+	font-size: 24px;
+	margin-right: 25%;
+}
+
+.c {
+	width: 45%;
+	gap: 10px;
+	margin-left: 55%;
+	background-color: darkseagreen;
+}
+
+
+
+
+.buttons {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px;
+}
+
+button {
+	padding: 10px;
+	font-size: 20px;
+}
+
